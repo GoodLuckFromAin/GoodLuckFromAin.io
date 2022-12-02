@@ -4,9 +4,14 @@
 }
 
 @font-face {
-    font-family: font1;
+    font-family: Efont1;
     src: url(AntrySansItalic_PERSONAL_USE_ONLY.otf);
   }
+
+@font-face {
+    font-family: Afont1;
+    src: url(\(A\)\ Arslan\ Wessam\ A\ \(A\)\ Arslan\ Wessam\ A.ttf);
+}
   
 
 body{
@@ -14,13 +19,15 @@ body{
     user-select: none;
 }
 .main{
+    margin-top: 30px;
     width: 1000px;
     margin: auto;
 }
 
 .main div{
-    font-size: 100px;
-    font-family: font1;
+    font-size: 2.75cm;
+    font-family: Efont1;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1200px) and (min-width : 770px) {
@@ -30,7 +37,7 @@ body{
     }
     
     .main div{
-        font-size: 75px;
+        font-size: 2.5cm;
         font-family: font1;
     }
     
@@ -42,7 +49,7 @@ body{
     }
     
     .main div{
-        font-size: 50px;
+        font-size: 1.75cm;
         font-family: font1;
     }
     
