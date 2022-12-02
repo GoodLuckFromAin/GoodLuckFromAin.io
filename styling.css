@@ -1,0 +1,24 @@
+:root {
+    --background: #BEDCFE; /* accessible everywhere */
+
+}
+
+@font-face {
+    font-family: font1;
+    src: url(AntrySansItalic_PERSONAL_USE_ONLY.otf);
+  }
+  
+
+body{
+    background-color: var(--background);
+    user-select: none;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+}
+
+.main div{
+    font-size: 100px;
+    font-family: font1;
+}
